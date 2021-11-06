@@ -53,7 +53,7 @@ local function VWXBICZ_fake_script() -- FPSCounterText.FPSCounterScript
 	end;
 	game:GetService("RunService").RenderStepped:Connect(updateFPS);
 	while true do
-		wait(1);
+		wait(0.5);
 		script.Parent.Text = u1 .. " FPS";
 		u1 = 0;
 	end;
